@@ -1,0 +1,63 @@
+
+*{
+
+    font-family: sans-serif;
+
+}
+
+.container{
+
+    background-color: lightgray;
+
+
+}
+
+
+.cabecera{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #78e08f;
+    color:#0c2461;
+    border: 1px black solid;
+    margin: 10px;
+    text-align: center;
+
+    padding: 10;
+
+}
+
+.cabecera h1,h2,h3{
+
+    font-family: inherit;
+
+}
+div footer{
+
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+/* ID DE SELECCION Y SOLO PUEDE HACBER 1 */
+#secid{
+
+    background-color: #FFFF;
+    border: 1px dashed gray;
+    width: 75%;
+    float: left;
+}
+
+.menulateral{
+
+    background-color: white;
+    width: 20%;
+    float: right;
+}
+
+.pie{
+
+    clear: both;
+}
+
+
+
+

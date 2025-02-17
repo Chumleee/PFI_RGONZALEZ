@@ -5,87 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author " content="Raul Gonzalez M.">
-    <link rel="icon" type="image/x-icon" href="/Learning_3/almuerzo-cohete.png">
+    <link rel="stylesheet" href="/Learning_3/styles/blogstyle.css">
+    <link rel="icon" type="image/x-icon" href="/Learning_3/perro.jpg">
     <title>Raul´s Blog</title>
-    <style>
+    <!-- <style>
         h1{
-            font-size : 30px;
+            color:violet
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
 
-    <!-- Header o Encabezado -->
+    <div class="container">
 
-    <header>
+        <!-- Header o Encabezado -->
+        <div>
+            <header class="cabecera">
 
-        <h1 style="color:red;">Raul´s Blog</h1>
+                <h1 style="color:#0c2461;">Raul´s Blog</h1>
 
-    </header>
-    <!-- barra de navegacion-->
-    <nav>
+            </header>
+        </div>
+        <!-- barra de navegacion-->
+         <div>
+        <nav>
 
-        <ul>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                </ul>
             </ul>
-        </ul>
 
-    </nav>
+        </nav>
+    </div>
+        <section id = "secid">
+            <!-- entrada 1-->
+            <div>
+                <article>
+                    <hgroup>
 
-    <section>
-        <!-- entrada 2-->
-        <article>
-            <hgroup>
+                        <h1>Post nuumber 1</h1>
+                        <h2>Subtitle to my post</h2>
 
-                <h1>Post nuumber 1</h1>
-                <h2>Subtitle to my post</h2>
+                    </hgroup>
 
-            </hgroup>
+                    <time datetime="12-02-2025">Post date 12-02-2025</time>
+                    <!-- alt + z para no desfazar-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, laborum? Eos, iste suscipit ducimus,
+                        est
+                        harum explicabo accusamus debitis modi inventore rerum a voluptatibus culpa omnis nihil sit
+                        impedit
+                        tempore.</p>
+                    <img src="/Learning_3/perro.jpg" width="100" height="80">
 
-            <time datetime="12-02-2025">Post date 12-02-2025</time>
-            <!-- alt + z para no desfazar-->
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, laborum? Eos, iste suscipit ducimus, est
-                harum explicabo accusamus debitis modi inventore rerum a voluptatibus culpa omnis nihil sit impedit
-                tempore.</p>
-<img src="Learning_3/almuerzo-cohete.ico"  width="100" height="80">
+                </article>
+            </div>
+            <!-- entrada 2-->
+            <div>
+                <article>
+                    <hgroup>
 
-        </article>
+                        <h1>Post nuumber 1</h1>
+                        <h2>Subtitle to my post</h2>
 
-        <!-- entrada 2-->
-        <article>
-            <hgroup>
+                    </hgroup>
 
-                <h1>Post nuumber 1</h1>
-                <h2>Subtitle to my post</h2>
-
-            </hgroup>
-
-            <time datetime="12-02-2025">Post date 12-02-2025</time>
-            <!-- alt + z para no desfazar-->
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, laborum? Eos, iste suscipit ducimus, est
-                harum explicabo accusamus debitis modi inventore rerum a voluptatibus culpa omnis nihil sit impedit
-                tempore.</p>
+                    <time datetime="12-02-2025">Post date 12-02-2025</time>
+                    <!-- alt + z para no desfazar-->
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, laborum? Eos, iste suscipit ducimus,
+                        est
+                        harum explicabo accusamus debitis modi inventore rerum a voluptatibus culpa omnis nihil sit
+                        impedit
+                        tempore.</p>
 
 
-        </article>
+                </article>
+            </div>
+        </section>
+        <!--menu lateral-->
+        <div>
+            <aside class = "menulateral">
+                <blockquote>
+                    <p>Archive </p>
+                </blockquote>
+                <blockquote>
+                    <p>Post number </p>
+                </blockquote>
+            </aside>
+        </div>
+        <div>
+        <footer class = "pie">
+            <p>&copy;All rigth reserved. Raul Gonzalez Muñoz</p>
+        </footer>
+    </div>
 
-    </section>
-    <!--menu lateral-->
-    <aside>
-        <blockquote>
-            <p>Archive </p>
-        </blockquote>
-        <blockquote>
-            <p>Post number </p>
-        </blockquote>
-    </aside>
-<footer>
-    <p>&copy;All rigth reserved. Raul Gonzalez Muñoz</p>
-</footer>
+    <!-- fin del div container -->
+    </div>
+
 
 
 </body>
